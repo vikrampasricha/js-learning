@@ -1,0 +1,2 @@
+1:to learn about any functionality use ecma or mdn
+tc39.es
