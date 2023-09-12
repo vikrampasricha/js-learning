@@ -10,4 +10,6 @@ let isLoggedIn=false;
 let state=null
 
 console.log(typeof (undefined))// undefined
+
+//IMP IMP
 console.log(typeof(null))//object
