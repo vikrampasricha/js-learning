@@ -1,0 +1,41 @@
+Js execution context is divided into 3 parts
+1:global execution context(this->window)
+2:function execution context
+3:eval execution context
+
+
+when we write code it is divided into 2 parts
+
+Memory Creation Phase
+execution Phase
+
+code to explain execution
+
+let val1=10
+let val2=5
+function addNum(num1,num2){
+    let total=num1+num2
+    return total
+}
+let result1=addNum(val1,val2)
+let result2=addNum(10,2)
+
+
+
+Memory Creation Phase
+Memory is allocated to all variables and function 
+all variables are undefined in MCP
+
+
+1:global execution
+this
+2:Memory Creation Phase
+val=undefined // same for all variables
+addNum()-defination of function
+
+3:execution Phase
+val1=10 similarly for other variables
+result1-its own new execution context is called
+after completing function execution ,ans is  returned to global execution
+
+and the execution context of function is deleted after completing of its context
